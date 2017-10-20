@@ -29,7 +29,7 @@ def auth(auth_type):
 
 
 def index():
-    print("welcome to index page");
+    print("welcome to index.html page");
 
 @auth(auth_type="local")
 def home():
